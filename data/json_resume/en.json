@@ -1,50 +1,32 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Richard Hendricks",
-    "label": "Programmer",
-    "image": "https://hugo-theme-gruvbox.schnerring.net/richard-hendricks.webp",
-    "email": "richard.hendricks@piedpiper.com",
-    "phone": "(912) 555-4321",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory.",
+    "name": "Ben-orli",
+    "label": "Data Science | Neuroscience",
+    "image": "https://pbs.twimg.com/profile_images/1539247971417702402/6BMAlwl5_400x400.jpg",
+    "email": "",
+    "phone": "",
+    "summary": "Here are projects I've been working on. I hope you can find something interesting!",
     "location": {
-      "city": "San Francisco"
+      "city": "London UK"
     },
     "profiles": [
       {
         "network": "GitHub",
-        "username": "hugo-theme-gruvbox",
-        "url": "https://github.com/schnerring/hugo-theme-gruvbox"
+        "username": "Benorli",
+        "url": "https://github.com/Benorli"
       },
       {
-        "network": "GitHub",
-        "username": "hugo-mod-github-readme-stats",
-        "url": "https://github.com/schnerring/hugo-mod-github-readme-stats"
-      },
-      {
-        "network": "GitHub",
-        "username": "hugo-mod-json-resume",
-        "url": "https://github.com/schnerring/hugo-mod-json-resume"
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/feed/"
       },
       {
         "network": "Twitter",
-        "url": "https://twitter.com/SiliconHBO"
+        "url": "https://twitter.com/BenOrli"
       },
       {
-        "network": "fandom",
-        "url": "https://silicon-valley.fandom.com/wiki/Richard_Hendricks"
-      },
-      {
-        "network": "HBO",
-        "url": "https://www.hbo.com/silicon-valley"
-      },
-      {
-        "network": "IMDB",
-        "url": "https://www.imdb.com/title/tt2575988/"
-      },
-      {
-        "network": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/List_of_Silicon_Valley_characters#Richard_Hendricks"
+        "network": "Kaggle",
+        "url": "https://www.kaggle.com/tastyshoe"
       }
     ]
   },
