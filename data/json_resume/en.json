@@ -4,8 +4,6 @@
     "name": "Ben-orli",
     "label": "Data Science | Neuroscience",
     "image": "https://pbs.twimg.com/profile_images/1539247971417702402/6BMAlwl5_400x400.jpg",
-    "email": "",
-    "phone": "",
     "summary": "Here are projects I've been working on. I hope you can find something interesting!",
     "location": {
       "city": "London UK"
@@ -32,18 +30,35 @@
   },
   "work": [
     {
-      "name": "Pied Piper",
-      "location": "Palo Alto, CA",
-      "description": "Awesome compression company",
-      "position": "CEO/President",
-      "url": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "name": "EdPlace",
+      "url": "https://www.edplace.com/",
+      "location": "London, UK (remote)",
+      "description": "Ed Technology",
+      "position": "Data Scientist (internship)",
+      "startDate": "2022-10-24",
+      "endDate": "2022-11-25",
+      "summary": "Developed a successful recommendation system for EdPlace (over 100,000 users), leveraging collaborative filtering to match users with suitable worksheets. Improved performance was unanimously agreed upon by stakeholders",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Contributed algorithms and Python code for data cleaning, clustering, feature selection, and the worksheet recommender, which were integrated into deliverables.",
+        "Optimised worksheet overlap calculation by identifying pre-computable components and implementing vectorization, resulting in a 120x reduction in processing time.",
+        "Utilized AWS and awswrangler to access server data and completed tasks as part of a 6-person team. Maintained the remote GitHub repository.",
+        "Received a competitive grant (£200) towards the Science to Data Science program."
+      ]
+    },
+    {
+      "name": "Neuromatch Academy",
+      "url": "https://compneuro.neuromatch.io/tutorials/intro.html",
+      "location": "Los Angeles, US (remote)",
+      "description": "Computational Neuroscience",
+      "position": "Teaching Assistant",
+      "startDate": "2022-07-11",
+      "endDate": "2022-07-30",
+      "summary": "Teaching Computational Neuroscience in Python to graduates",
+      "highlights": [
+        "Taught a computational neuroscience course to a diverse group of graduate students and postdocs from computer science, neuroscience, and related fields.",
+        "Received exceptional feedback from students for my teaching.",
+        "Taught material produced by leaders in the field with sponsors such as Google AI.",
+        "Provided feedback on students Python code."
       ]
     }
   ],
