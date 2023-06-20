@@ -74,11 +74,11 @@ jobs:
       - name: Build Hugo
         run: hugo --minify
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: hugo-theme-gruvbox
-          directory: ./public
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+     # - name: Deploy to Cloudflare Pages
+     #   uses: cloudflare/pages-action@v1
+     #   with:
+     #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+     #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+     #     projectName: hugo-theme-gruvbox
+     #     directory: ./public
+     #     gitHubToken: ${{ secrets.GITHUB_TOKEN }}
