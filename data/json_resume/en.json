@@ -117,30 +117,24 @@
     {
       "organization": "Informal",
       "position": "Teaching English",
-      "url": "https://climatefresk.org/",
       "summary": "I helped refugees aged 16-18 adapt to Austrian education, qualifying for work and apprenticeships."
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
     }
   ],
   "skills": [
     {
-      "name": "Python",
-      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Pytorch", "Jupyter"]
+      "name": "Level:",
+      "level": "Advanced",
+      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Pytorch", "Jupyter", "MATLAB", "Git"]
     },
     {
-      "name": "Tools",
-      "keywords": ["AWS", "Awswrangler", "SQL", "R", "Git"]
+      "name": "Level",
+      "level": "Intermediate",
+      "keywords": ["AWS", "Awswrangler", "SQL"]
     },
     {
-      "name": "Other Languages",
-      "keywords": ["MATLAB", "SQL", "R"]
+      "name": "Level",
+      "level": "Some Experience",
+      "keywords": ["R"]
     }
   ],
   "interests": [

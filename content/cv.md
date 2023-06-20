@@ -16,14 +16,6 @@ type: "cv"
 
 {{< json-resume "volunteer" >}}
 
-## Awards
-
-{{< json-resume "awards" >}}
-
-## Publications
-
-{{< json-resume "publications" >}}
-
 ## Skills
 
 {{< json-resume "skills" >}}
