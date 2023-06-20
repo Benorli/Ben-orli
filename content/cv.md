@@ -20,10 +20,6 @@ type: "cv"
 
 {{< json-resume "awards" >}}
 
-## Certificates
-
-{{< json-resume "certificates" >}}
-
 ## Publications
 
 {{< json-resume "publications" >}}
@@ -39,10 +35,6 @@ type: "cv"
 ## Interests
 
 {{< json-resume "interests" >}}
-
-## References
-
-{{< json-resume "references" >}}
 
 ## Projects
 

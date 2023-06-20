@@ -30,6 +30,22 @@
   },
   "work": [
     {
+      "name": "Medical University of Vienna",
+      "url": "https://www.meduniwien.ac.at/web/en/",
+      "location": "Vienna Austria",
+      "description": "Systems Neuroscience",
+      "position": "Researcher - Project Manager - PhD",
+      "startDate": "2016-08-01",
+      "summary": "Decision confidence in the orbitofrontal cortex",
+      "highlights": [
+        "Co-lead a project with a budget of approx €1,000,000 involving several lab members, and an collaboration with a US lab, including a 6-month visitation. I also hosted their visit.",
+        "Using nothing more than PCA, linear models, and K-nearest neighbour models, I validated a prediction of behaviour from spike rates, and achieved state-of-the-art accuracy (RMSE).",
+        "I improved the data structure used to access trial data for the entire project. For loops became group-by statements and matrix operations. This dramatically simplified and sped up analysis.",
+        "I performed brain surgery on over 60 rodents, including a famously difficult procedure. I am one of less than 20 people worldwide who has achieved this successfully.",
+        "Mentored a masters’ student, helping them troubleshoot and provided project direction. I also trained new staff members, including several postdocs"
+      ]
+    },
+    {
       "name": "EdPlace",
       "url": "https://www.edplace.com/",
       "location": "London, UK (remote)",
@@ -51,38 +67,58 @@
       "location": "Los Angeles, US (remote)",
       "description": "Computational Neuroscience",
       "position": "Teaching Assistant",
-      "startDate": "2022-07-11",
+      "startDate": "2017-07-11",
       "endDate": "2022-07-30",
       "summary": "Teaching Computational Neuroscience in Python to graduates",
       "highlights": [
-        "Taught a computational neuroscience course to a diverse group of graduate students and postdocs from computer science, neuroscience, and related fields.",
-        "Received exceptional feedback from students for my teaching.",
-        "Taught material produced by leaders in the field with sponsors such as Google AI.",
-        "Provided feedback on students Python code."
+        "Taught a computational neuroscience course to graduate students from STEM fields, receiving exceptional feedback from students for my teaching and Python code review.",
+        "Through years of experience, I rapidly understand material produced by leaders in the field"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "url": "http://coderdojo.example.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
+      "name": "Cold Spring Harbor Laboratory",
+      "url": "https://www.cshl.edu/",
+      "location": "Long Island, US",
+      "description": "Systems Neuroscience",
+      "position": "Researcher",
+      "summary": "6 month reasearch visit during my PhD. Part of a collaboration between the Kepecs lab and the Klausberger lab.",
+      "highlights": [
+      "I contributed RNA sequencing data, discovering novel markers for brain pathways.",
+      "Analysed differential expression (RNA) in R to choose validation targets (> €1000 per target)"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "url": "https://www.ou.edu/",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
+      "institution": "The University of Manchester",
+      "area": "Neuroscience",
+      "studyType": "MSc",
+      "startDate": "2014",
+      "endDate": "2015",
+      "score": "Distinction",
+      "courses": ["Project 1: Hyperparameter optimization for a regularized GLM to predict whisker curvature from neuron firing rates.", "Project 2: Modelled a substantia nigra microcircuit of 1000 dynamical systems neurons and inhibitory synapses to determine the gain control afforded by inhibitory collateral connections."]
+    },
+    {
+      "institution": "The University of Manchester",
+      "area": "Biomedical Science",
+      "studyType": "BSc",
+      "startDate": "2011",
+      "endDate": "2014",
+      "score": "2:1"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Climate Fresk",
+      "position": "Workshop Facilitator",
+      "url": "https://climatefresk.org/",
+      "summary": "Qualified to coordinate 2-3 hour educational workshops explaining the IPCC reports."
+    },
+    {
+      "organization": "Informal",
+      "position": "Teaching English",
+      "url": "https://climatefresk.org/",
+      "summary": "I helped refugees aged 16-18 adapt to Austrian education, qualifying for work and apprenticeships."
     }
   ],
   "awards": [
@@ -93,65 +129,40 @@
       "summary": "There is no spoon."
     }
   ],
-  "publications": [
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
+      "name": "Python",
+      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Pytorch", "Jupyter"]
     },
     {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
-    }
-  ],
-  "languages": [
+      "name": "Tools",
+      "keywords": ["AWS", "Awswrangler", "SQL", "R", "Git"]
+    },
     {
-      "language": "English",
-      "fluency": "Native speaker"
+      "name": "Other Languages",
+      "keywords": ["MATLAB", "SQL", "R"]
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Hobbies",
+      "keywords": ["Kaggle", "Inline skating", "Rock climbing", "Hiking", "Travel", "Martial arts", "Guitar"]
     }
   ],
   "projects": [
     {
-      "name": "Miss Direction",
-      "description": "A mapping engine that misguides you",
+      "description": "The self hosted website you are on right now!",
       "highlights": [
-        "Won award at AIHacks 2016",
-        "Built by all women team of newbie programmers",
-        "Using modern technologies such as GoogleMaps, Chrome Extension and Javascript"
+      "Built with Hugo, a static site generator written in Go."
       ],
-      "keywords": ["GoogleMaps", "Chrome Extension", "Javascript"],
-      "startDate": "2016-08-24",
-      "endDate": "2016-08-24",
-      "roles": ["Team lead", "Designer"],
-      "entity": "Smoogle",
-      "type": "application"
+      "keywords": ["nginx", "oracle cloud", "Hugo", "HTML", "CSS", "Javascript"],
+      "startDate": "2023-06-14",
+      "roles": ["ben-orli.co.uk"],
+      "type": "Web Application"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2017-12-24T15:53:00"
+    "version": "v1.0.0"
   }
 }
