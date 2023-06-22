@@ -124,12 +124,12 @@
     {
       "name": "Level:",
       "level": "Advanced",
-      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Pytorch", "Jupyter", "MATLAB", "Git"]
+      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter", "MATLAB", "Git"]
     },
     {
       "name": "Level",
       "level": "Intermediate",
-      "keywords": ["AWS", "Awswrangler", "SQL"]
+      "keywords": ["AWS", "Awswrangler", "SQL", "Pytorch", "Fastai"]
     },
     {
       "name": "Level",
