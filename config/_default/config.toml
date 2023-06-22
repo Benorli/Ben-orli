@@ -114,9 +114,9 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog"
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects"
     weight = 10
   [[menu.main]]
     identifier = "github-Stats"
