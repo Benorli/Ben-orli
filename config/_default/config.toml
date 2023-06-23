@@ -26,10 +26,9 @@ enableRobotsTXT = true
   #themeColor = "blue"
   # soft medium hard, defaults to medium
   #themeContrast = "medium"
-  author = "Michael Schnerring"
-  subtitle = "Theme Demo"
+  author = "Ben-orli Nathanson"
   defaultTheme = "dark"
-  description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
+  description = "A portfolio website for Ben-orli."
 
   [params.logo]
     text = "Ben"
