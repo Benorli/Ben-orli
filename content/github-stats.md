@@ -7,7 +7,7 @@ draft: false
 
 ### Note
 
-This displays my public projects! There are commercial, and unpublished academic projects missing.
+This displays my public projects. There are commercial, and unpublished academic projects missing.
 
 {{< github-readme-stats/stats class="gh-stats-card" username="Benorli" theme="gruvbox_dark" >}}
 
