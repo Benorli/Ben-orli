@@ -33,7 +33,7 @@ a.link--external::after {
 
 img,
 video {
-  border: 2px solid var(--bg1);
+  border: none;
   height: auto;
   max-width: 100%;
 }
