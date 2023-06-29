@@ -7,7 +7,7 @@ math: true
 plotly: true
 cover:
   src: ./k_nearest.png
-  caption: K nearest Students
+  caption: K Nearest Students (simulated students)
 ---
 
 ## EdPlace Recommender
@@ -62,7 +62,7 @@ This similarity measure is based entirely on the worksheets completed by student
 
 Once a student logs on, a similarity score can be rapidly calculated between them and all other users. This gives us our first dimension. We also included **average score** as another dimension. In combination, the space takes into account skill level and difficulty. The distance can then be taken between the student and all other students in this space. We can select the k-nearest students, where k is a parameter we define. For this example, we can set k to 20, so the 20 nearest students. This would look a bit like this:
 
-![k_nearest](./k_nearest.png)
+![K Nearest Students (simulated students)](./k_nearest.png "K Nearest Students (simulated students)")
 
 We could then use the k-nearest students to narrow down the number of worksheets. We took the subset of worksheets completed by those students as the set which could be recommended.
 
