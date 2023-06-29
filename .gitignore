@@ -162,4 +162,4 @@ dist
 plotenv/
 
 # private
-private/
+layouts/partials/private
