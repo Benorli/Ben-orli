@@ -5,9 +5,9 @@ draft: false
 
 ## This site
 
-This website is a portfolio website for Ben-orli. I'm a data scientist coming from a computational neuroscience background. I've been working with data in Python and MATLAB throughout my PhD. Machine learning has been at the centre of my work since my masters degree doing computational neuroscience. I fell in love with machine learning and have since moved on to commercial projects (feel free to check the CV section of this website for more details).
+This is a portfolio website for Ben-orli. I'm a data scientist coming from a computational neuroscience background. Machine learning has been at the centre of my work since my masters degree doing computational neuroscience. I fell in love with machine learning and have since moved on to commercial projects (check the projects section of this website for more details).
 
-This website allows me to publish and share analysis and plots online. I am self hosting the site and running it on a free cloud server! As the commercial project I've done was proprietary, it can't be fully shared here. However, I've done a few projects for fun that I can share.
+This website allows me to publish and share analysis and plots online. I am self hosting the site and running it on a free cloud server.
 
 ## Attributions
 
