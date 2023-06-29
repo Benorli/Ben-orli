@@ -160,3 +160,6 @@ dist
 
 # Python env
 plotenv/
+
+# private
+private/
