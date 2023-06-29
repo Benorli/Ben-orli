@@ -30,22 +30,6 @@
   },
   "work": [
     {
-      "name": "Medical University of Vienna",
-      "url": "https://www.meduniwien.ac.at/web/en/",
-      "location": "Vienna Austria",
-      "description": "Systems Neuroscience",
-      "position": "Researcher - Project Manager - PhD",
-      "startDate": "2016-08-01",
-      "summary": "Decision confidence in the orbitofrontal cortex",
-      "highlights": [
-        "Co-lead a project with a budget of approx €1,000,000 involving several lab members, and an collaboration with a US lab, including a 6-month visitation. I also hosted their visit.",
-        "Using nothing more than PCA, linear models, and K-nearest neighbour models, I validated a prediction of behaviour from spike rates, and achieved state-of-the-art accuracy (RMSE).",
-        "I improved the data structure used to access trial data for the entire project. For loops became group-by statements and matrix operations. This dramatically simplified and sped up analysis.",
-        "I performed brain surgery on over 60 rodents, including a famously difficult procedure. I am one of less than 20 people worldwide who has achieved this successfully.",
-        "Mentored a masters’ student, helping them troubleshoot and provided project direction. I also trained new staff members, including several postdocs"
-      ]
-    },
-    {
       "name": "EdPlace",
       "url": "https://www.edplace.com/",
       "location": "London, UK (remote)",
@@ -53,12 +37,32 @@
       "position": "Data Scientist (internship)",
       "startDate": "2022-10-24",
       "endDate": "2022-11-25",
-      "summary": "Developed a successful recommendation system for EdPlace (over 100,000 users), leveraging collaborative filtering to match users with suitable worksheets. Improved performance was unanimously agreed upon by stakeholders",
+      "summary": "Developed the recommendation system used by EdPlace (www.edplace.com, over 100,000 users), using collaborative filtering to match users with worksheets. Improved performance was unanimously agreed on by stakeholders used on the site.",
       "highlights": [
-        "Contributed algorithms and Python code for data cleaning, clustering, feature selection, and the worksheet recommender, which were integrated into deliverables.",
-        "Optimised worksheet overlap calculation by identifying pre-computable components and implementing vectorization, resulting in a 120x reduction in processing time.",
-        "Utilized AWS and awswrangler to access server data and completed tasks as part of a 6-person team. Maintained the remote GitHub repository.",
-        "Received a competitive grant (£200) towards the Science to Data Science program."
+        "EdPlace needed a worksheet recommender to engage users with more appropriate content, improving user experience, learning, and retention. Our team was able to provide this.",
+        "Wrote Python functions to recommend easier worksheets when children were struggling.",
+        "Used set theory to find a worksheet similarity measure based on student completion. This gave rich, user defined connections between worksheets, going deeper than subject and year.",
+        "Optimised worksheet overlap calculation by finding pre-computable components, Python sets, and NumPy vectorization, resulting in a 120x time reduction, making the method usable.",
+        "Accessed and cleaned large volumes of server data, working on AWS and using awswrangler.",
+        "Fixed security and versioning issues for a team of 6, on our shared GitHub repository."
+      ]
+    },
+    {
+      "name": "Medical University of Vienna",
+      "url": "https://www.meduniwien.ac.at/web/en/",
+      "location": "Vienna Austria",
+      "description": "Systems Neuroscience",
+      "position": "Researcher - Project Manager - PhD",
+      "startDate": "2016-08-01",
+      "summary": "Dimension reduced data and built supervised ML models in Python, which can predict the behaviour of rats from single neuron activity. This will enable an article to be submitted for peer review (first author - finalising). Received a €600 grant from ANA to present this work at the largest neuroscience conference in Europe (FENS).",
+      "highlights": [
+        "Decision confidence is in all decision-making. High confidence errors are linked to hallucination. I helped to uncover how neurons in the prefrontal cortex carry confidence information.",
+        "Ran PCA, and K-nearest neighbour models in scikit-learn (Python) on raw spikes for data driven prediction of waiting behaviour, achieving state-of-the-art accuracy (0.2 s RMSE).",
+        "Developed a method including optimal width Gaussian kernel convolution and change/slope detection used by the lab to find key events in time series, which will go into publication.",
+        "Improved the trial data structure for the entire project. Loops became indexing, group-by statements, and matrix operations. Some processes previously taking hours took seconds. ",
+        "Co-led a project with a budget of approx €1,000,000 involving several lab members, and a collaboration with a US lab, including a 6-month visitation, also hosting their visit.",
+        "Contributed RNA sequencing data, discovering novel markers for brain pathways at CSHL, Long Island, US. Analysing differential expression in R to choose targets (> €1000 per target).",
+        "Mentored a masters' student and trained new staff members, including several postdocs."
       ]
     },
     {
@@ -74,18 +78,6 @@
         "Taught a computational neuroscience course to graduate students from STEM fields, receiving exceptional feedback from students for my teaching and Python code review.",
         "Through years of experience, I rapidly understand material produced by leaders in the field"
       ]
-    },
-    {
-      "name": "Cold Spring Harbor Laboratory",
-      "url": "https://www.cshl.edu/",
-      "location": "Long Island, US",
-      "description": "Systems Neuroscience",
-      "position": "Researcher",
-      "summary": "6 month reasearch visit during my PhD. Part of a collaboration between the Kepecs lab and the Klausberger lab.",
-      "highlights": [
-      "I contributed RNA sequencing data, discovering novel markers for brain pathways.",
-      "Analysed differential expression (RNA) in R to choose validation targets (> €1000 per target)"
-      ]
     }
   ],
   "education": [
@@ -96,7 +88,10 @@
       "startDate": "2014",
       "endDate": "2015",
       "score": "Distinction",
-      "courses": ["Project 1: Hyperparameter optimization for a regularized GLM to predict whisker curvature from neuron firing rates.", "Project 2: Modelled a substantia nigra microcircuit of 1000 dynamical systems neurons and inhibitory synapses to determine the gain control afforded by inhibitory collateral connections."]
+      "courses": [
+        "Project 1: Hyperparameter optimization for a regularized GLM to predict whisker curvature from neuron firing rates.", 
+        "Project 2: Modelled a substantia nigra microcircuit of 1000 dynamical systems neurons and inhibitory synapses to determine the gain control afforded by inhibitory collateral connections."
+    ]
     },
     {
       "institution": "The University of Manchester",
@@ -124,7 +119,7 @@
     {
       "name": "Level:",
       "level": "Advanced",
-      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter", "MATLAB", "Git"]
+      "keywords": ["NumPy", "Pandas", "Matplotlib", "Seaborn", "Scikit-learn", "Jupyter", "Plotly", "MATLAB", "Git"]
     },
     {
       "name": "Level",
@@ -134,7 +129,7 @@
     {
       "name": "Level",
       "level": "Some Experience",
-      "keywords": ["R"]
+      "keywords": ["R", "D3.js"]
     }
   ],
   "interests": [
@@ -149,7 +144,7 @@
       "highlights": [
       "Built with Hugo, a static site generator written in Go."
       ],
-      "keywords": ["nginx", "Oracle cloud", "Hugo", "HTML", "CSS", "Javascript"],
+      "keywords": ["nginx", "Hugo", "HTML", "CSS", "Javascript", "Python", "Plotly", "D3.js"],
       "startDate": "2023-06-14",
       "roles": ["ben-orli.co.uk"],
       "type": "Web Application"
