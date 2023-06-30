@@ -12,15 +12,15 @@ cover:
 
 ## EdPlace Recommender
 
-I was part of a team that built the recommender [EdPlace](https://www.edplace.com/) uses to recommend content to students. As this is a commercial project, it is not possible to discuss the details of data here, but I can share the main ideas behind the recommender. Even though the EDA can't be shared, please be rest assured we explored distributions of features, looked into PCA, co-linearities, and correlations.
+I was part of a team that built the recommender [EdPlace](https://www.edplace.com/) uses to recommend content to students. As this is a commercial project, it is not possible to discuss the details of data here, but I can share the main ideas behind the recommender. Even though the EDA can't be shared, please be assured we explored distributions of features, looked into PCA, co-linearities, and correlations.
 
 ## The Business Problem
 
-At the time of the project, there were over 100,000 students on EdPlace. They have thousands of worksheets, crafted by experienced teachers across maths, science, and English. This amount of content can be overwhelming. **EdPlace recommends a new worksheet to each student** to engage them with new content, improve user experience, and guide students on their learning journey,. The old recommender followed the syllabus. This is a good starting point. However:
+At the time of the project, there were over 100,000 students on EdPlace. They have thousands of worksheets, crafted by experienced teachers across maths, science, and English. This amount of content can be overwhelming. **EdPlace recommends a new worksheet to each student** to engage them with new content, improve user experience, and guide students on their learning journey. The old recommender followed the syllabus. This is a good starting point. However:
 
 1. **The students performance wasn't taken into account**. A struggling student would get identical recommendations to a confident student.
 2. **The order was fixed, and imposed by teachers**. It couldn't learn and adapt from paths or connections discovered by students.
-3. **This is a one size fits all solution**. Individual differences aren't taken into account.
+3. **This is a one size fits all solution**. Individual differences weren't taken into account.
 
 ## The Technical Problem
 
