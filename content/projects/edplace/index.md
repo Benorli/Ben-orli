@@ -34,7 +34,7 @@ Ratings don't have the same meaning for worksheets. We needed to **define a targ
 
 ### A Starting Target
 
-This problem reminded me of [a paper I had read (Wilson et al, 2019)](https://www.nature.com/articles/s41467-019-12552-4). They observe that the optimal accuracy of optimal training is about 85 %. The paper uses artificial neural networks, but does provide references to human and animal learning. In figure 5, they relate this to the model of flow – a well known concept in popular culture. I recreated a schematic here:
+This problem reminded me of [a paper I had read (Wilson et al. 2019)](https://www.nature.com/articles/s41467-019-12552-4). They observe that the optimal accuracy of optimal training is about 85 %. The paper uses artificial neural networks, but does provide references to human and animal learning. In figure 5, they relate this to the model of flow – a well known concept in popular culture. I recreated a schematic here:
 
 ![Flow](./flow_schema_transparent.png)
 
