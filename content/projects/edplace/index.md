@@ -42,21 +42,9 @@ They argue that maximal learning occurs in the flow state. We could define a tar
 
 ### Collaborative Filtering – Similar Students
 
-We wanted a way to determine the similarity between students that took into account the material they were working on. A simple yet powerful method to determine student similarity was to look at overlap between worksheet completion.
+We wanted a way to determine the similarity between students that took into account the material they were working on. We chose a simple yet powerful method to determine student similarity.
 
-The worksheets completed by any given student can be represented as a set.
-
-$$
-A = \{a_1, a_2, a_3, \dots, a_n\}
-$$
-
-For a given comparison between any two students, there is one set of worksheets for each student. One way to determine similarity between the two students is the Jaccard index. It is defined as the size of the intersection divided by the size of the union of the sample sets. In our case, the sets are the worksheets completed by students. The Jaccard index is defined as:
-
-$$
-J(A, B) = \frac{{|A \cap B|}}{{|A \cup B|}}
-$$
-
-This similarity measure is based entirely on the worksheets completed by students. It can be taken as part of a **collaborative filtering** method in the absence of ratings. Similarities between students are based on the content they study. If students discover a novel but effective learning path, when a new student joins, the recommender will help them discover this too. Students sharing a teacher or a specific curriculum will also be recommended class relevant material. As students complete more and more worksheets, the measure improves, learning from the decisions of students.
+This similarity measure is based on the worksheets completed by students. It can be taken as part of a **collaborative filtering** method in the absence of ratings. Similarities between students are based on the content they study. If students discover a novel but effective learning path, when a new student joins, the recommender will help them discover this too. Students sharing a teacher or a specific curriculum will also be recommended class relevant material. As students complete more and more worksheets, the measure improves, learning from the decisions of students.
 
 ### K-nearest students
 
