@@ -1,0 +1,71 @@
+{{/* layouts/shortcodes/warning.html */}}
+<style>
+.warning-box {
+  display: flex;
+  flex-direction: column; /* To make the title and icon appear in one column */
+  text-align: left;
+  padding: 5px;
+  border: 2px solid var(--warning-border-color);
+  background-color: var(--warning-background-color);
+  color: var(--warning-text-color);
+}
+
+.warning-icon {
+  font-size: 18px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.warning-title {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 5px;
+  color: var(--warning-text-color);
+}
+
+.warning-text {
+  color: var(--warning-text-color);
+  font-size: small;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+</style>
+
+<div class="warning-box">
+  <div class="warning-title"><span class="warning-icon">⚠️</span>{{ .Get 0 }}</div>
+  <div class="warning-text">{{ .Inner }}</div>
+</div>
+
+
+<script>
+  const html = document.querySelector("html");
+  const warningBox = document.querySelector(".warning-box");
+
+  function setColors(theme) {
+    const colors = theme === "dark" ? {
+      "--warning-background-color": "#633636",
+      "--warning-border-color": "#821717",
+      "--warning-text-color": "#FBF1C7"
+    } : {
+      "--warning-background-color": "#f5bcbc",
+      "--warning-border-color": "#e87d7d",
+      "--warning-text-color": "#212121"
+    };
+
+    Object.entries(colors).forEach(([key, value]) => {
+      warningBox.style.setProperty(key, value);
+    });
+  }
+
+  setColors(html.getAttribute("data-theme"));
+
+  const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+      if (mutation.attributeName === "data-theme") {
+        setColors(html.getAttribute("data-theme"));
+      }
+    });
+  });
+
+  observer.observe(html, { attributes: true });
+</script>
