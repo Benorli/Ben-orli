@@ -1,0 +1,56 @@
+<style>
+    input[type="file"] {
+        border-radius: 5px;
+      }
+
+  .custom-file-upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+  }
+  
+  .custom-file-upload:hover {
+    color: #f5bcbc;
+  }
+
+  .custom-file-upload label {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+</style>
+
+<form>
+    <input type="file" id="imageUpload" class="custom-file-upload" accept=".jpg">
+    <h4 id="container"></h4>
+</form>
+  
+  <script type="module">
+    import { client } from 'https://cdn.jsdelivr.net/npm/@gradio/client@0.2.1/dist/index.min.js'
+
+    const imageUpload = document.getElementById("imageUpload");
+    const allowedTypes = ["image/jpeg"];
+  
+    async function handleImageUpload(event) {
+      const file = event.target.files[0];
+      if (!allowedTypes.includes(file.type)) {
+        alert("Only JPG files are allowed.");
+        event.target.value = "";
+      } else {
+        const app = await client("https://ben-orli-a-bee-or-not-a-bee.hf.space/");
+        const result = await app.predict("/predict", [
+            file,
+        ]);
+  
+        const outputDiv = document.createElement("div");
+        outputDiv.textContent = `Prediction: ${result.data[0].label}`;
+        const container = document.getElementById("container");
+        container.innerHTML = ""; 
+        container.appendChild(outputDiv);
+    }
+    }
+  
+    imageUpload.addEventListener("change", handleImageUpload);
+  </script>
