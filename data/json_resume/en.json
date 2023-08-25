@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
-    "name": "Ben-orli",
+    "name": "Ben",
     "label": "Data Science | Neuroscience",
     "image": "https://pbs.twimg.com/profile_images/1539247971417702402/6BMAlwl5_400x400.jpg",
     "summary": "Here are projects I've been working on. I hope you can find something interesting!",
