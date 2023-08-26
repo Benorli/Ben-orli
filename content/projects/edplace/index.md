@@ -5,6 +5,7 @@ draft: false
 socialShare: true
 math: true
 plotly: true
+summary: 'I was part of a team that built the recommender [EdPlace](https://www.edplace.com/) uses to recommend content to students. **EdPlace recommends a new worksheet to each student** to engage them with new content, improve user experience, and guide students on their learning journey.'
 cover:
   src: ./k_nearest.png
   caption: K Nearest Students (simulated students)

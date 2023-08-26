@@ -13,7 +13,7 @@ cover:
 
 Bees, wasps, and hoverflies look pretty similar. It can be easy to forget who's who. Hover flies don't sting! Bees pollinate flowers, and make honey. Wasps well... Let's just hope they're doing their bit. 
 
-I trained an image classifier that can help. It's **95 % accurate** on my validation set! **Note:** pictures from your camera will be a little harder.
+I trained an image classifier that can help. It's **95 % accurate** on my validation set! <!--more--> **Note:** pictures from your camera will be a little harder.
 
 
 <br>
@@ -40,7 +40,7 @@ img {
 This is a demo model - use at your own risk. Stay safe out there, don't get stung!
 {{< /warning >}}
 
-Here is a [link to a demo on my Huggingface spaces](https://huggingface.co/spaces/Ben-orli/a-bee-or-not-a-bee) with demo images you can drag and drop, or upload your own images. I highly recommend clicking the link as it's fun an intuitive.
+Here is a [link to a demo on my Huggingface spaces](https://huggingface.co/spaces/Ben-orli/a-bee-or-not-a-bee) with demo images you can drag and drop, or upload your own images. I highly recommend clicking the link as it's fun and intuitive.
 
 If you love this site so much you don't want to leave, please don't fear, you can upload your images with the button below:
 
